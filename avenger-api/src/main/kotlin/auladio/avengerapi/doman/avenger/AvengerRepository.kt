@@ -1,6 +1,5 @@
 package auladio.avengerapi.doman.avenger
 
-import antlr.collections.List
 
 interface AvengerRepository {   // Interface de acesso, devolve o objeto
     fun getDetail(id: Long): Avenger // Função GET
